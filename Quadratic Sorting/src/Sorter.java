@@ -26,4 +26,34 @@ public class Sorter {
 		arr = newArr;
 	}
 	
+	public void fillAscending(){
+		
+		
+		for(int i = 0; i<arr.length;i++){
+			arr[i] = i;
+		}
+	}
+	
+	public void fillDescending(){
+		
+		for(int i = arr.length; i>0;i--){
+			arr[i-1] = i;
+		}
+	}
+	
+	public void fillRandom(){
+		int max = arr.length +1;
+		
+		for(int i = 0; i<arr.length; i++){
+			arr[i]= (int) (Math.random()*max);
+		}
+		
+	}
+	
+	public void printSorter(){
+		for(int i : arr){
+			System.out.println(i);
+		}
+	}
+	
 }
