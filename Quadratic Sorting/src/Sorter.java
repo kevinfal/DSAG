@@ -26,6 +26,32 @@ public class Sorter {
 		arr = newArr;
 	}
 	
+	public void sort(){
+		
+		int swaps = 0;
+		int comparisons = 0;
+		//size variable =  length of the array
+		for(int i = 0; i<size-1;i++){
+			for(int i2 = 0; i2< size-i-1; i2++){
+				comparisons++;
+				if(arr[i2] > arr[i2+1]){
+					
+					//this is where the swap happens
+					
+					swaps++;
+					int temp = arr[i2];
+					arr[i2] = arr[i2+1];
+					arr[i2+1] = temp;
+					
+				}
+				
+			}
+		}
+		System.out.println("Comparisons: " +comparisons);
+		System.out.println("Swaps: " +swaps);
+		}
+	
+	
 	public void fillAscending(){
 		
 		
@@ -36,8 +62,8 @@ public class Sorter {
 	
 	public void fillDescending(){
 		
-		for(int i = arr.length; i>0;i--){
-			arr[i-1] = i;
+		for(int i = 0; i<size;i++){
+			arr[i] = size -i;
 		}
 	}
 	
@@ -52,8 +78,9 @@ public class Sorter {
 	
 	public void printSorter(){
 		for(int i : arr){
-			System.out.println(i);
+			System.out.print(i +" ");
 		}
+		System.out.println("");;
 	}
 	
 }
