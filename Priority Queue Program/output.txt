@@ -1,0 +1,53 @@
+New Patient 'Zoe, Field' added with PLevel: 10.
+New Patient 'Suzy, Queue' added with PLevel: 5.
+New Patient 'Ura, Nerd' added with PLevel: 9.
+New Patient 'Cal, Kulate' added with PLevel: 5.
+New Patient 'Closda, Windoes' added with PLevel: 1.
+New Patient 'Blaise, Pascal' added with PLevel: 2.
+New Patient 'Sally, Field' added with PLevel: 3.
+New Patient 'Qwerty, Keys' added with PLevel: 4.
+New Patient 'Linc, List' added with PLevel: 9.
+New Patient 'Ima, Geek' added with PLevel: 1.
+   Now seeing: Windoes Closda, PLevel: 1
+   Now seeing: Geek Ima, PLevel: 1
+   Now seeing: Pascal Blaise, PLevel: 2
+   Now seeing: Field Sally, PLevel: 3
+   Now seeing: Keys Qwerty, PLevel: 4
+   Now seeing: Queue Suzy, PLevel: 5
+   Now seeing: Kulate Cal, PLevel: 5
+New Patient 'Electromagnetic, Field' added with PLevel: 8.
+New Patient 'Zoe, Guest' added with PLevel: 7.
+New Patient 'Sally, Guest' added with PLevel: 2.
+New Patient 'April, Field' added with PLevel: 1.
+New Patient 'Asdfgh, Keys' added with PLevel: 10.
+New Patient 'Mike, Rochip' added with PLevel: 10.
+New Patient 'Amy, Rochip' added with PLevel: 10.
+New Patient 'Didja, Windoes' added with PLevel: 8.
+New Patient 'Data, Field' added with PLevel: 4.
+New Patient 'Howard, Yadoing' added with PLevel: 3.
+   Now seeing: Field April, PLevel: 1
+   Now seeing: Guest Sally, PLevel: 2
+   Now seeing: Yadoing Howard, PLevel: 3
+   Now seeing: Field Data, PLevel: 4
+   Now seeing: Guest Zoe, PLevel: 7
+New Patient 'Alice, Ardvaark' added with PLevel: 6.
+New Patient 'Genevieve, Stapos' added with PLevel: 10.
+New Patient 'Abe, Ardvaark' added with PLevel: 1.
+New Patient 'Doyour, Math' added with PLevel: 2.
+New Patient 'Iluv, Math' added with PLevel: 2.
+   Now seeing: Ardvaark Abe, PLevel: 1
+   Now seeing: Math Doyour, PLevel: 2
+   Now seeing: Math Iluv, PLevel: 2
+New Patient 'Sally, Pascal' added with PLevel: 9.
+   Now seeing: Ardvaark Alice, PLevel: 6
+   Now seeing: Field Electromagnetic, PLevel: 8
+   Now seeing: Windoes Didja, PLevel: 8
+   Now seeing: Nerd Ura, PLevel: 9
+   Now seeing: List Linc, PLevel: 9
+   Now seeing: Pascal Sally, PLevel: 9
+   Now seeing: Field Zoe, PLevel: 10
+   Now seeing: Keys Asdfgh, PLevel: 10
+   Now seeing: Rochip Mike, PLevel: 10
+   Now seeing: Rochip Amy, PLevel: 10
+   Now seeing: Stapos Genevieve, PLevel: 10
+   No more patients in queue!

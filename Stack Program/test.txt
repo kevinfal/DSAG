@@ -1,0 +1,24 @@
+public static String toPostFix(String expression) {
+		String[] input = parseIn(expression);
+		ArrayStack<String> operators = new ArrayStack<String>();
+		String postFix = "";
+		for (int x = 0; x < input.length; x++) {
+			if (isNumber(input[x])) {
+				postFix+=input[x] + " ";
+			} else if (!input[x].equals("")) {
+				while(priority(input[x],operators.peek())) {
+					postFix+=(operators.peek().equals("(") ? "" : operators.pop() + " ");
+				}
+				if (!operators.isEmpty() && input[x].equals(")")) {
+					if (operators.peek().equals("(")) {
+						operators.pop();
+					}
+				}
+				if (!input[x].equals(")"))
+					operators.push(input[x]);
+			}
+		}
+		while (!operators.isEmpty() && !operators.peek().equals("("))
+			postFix+=operators.pop() + " ";
+		return postFix;
+}
